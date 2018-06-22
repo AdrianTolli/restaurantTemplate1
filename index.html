@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RESTAURANT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background">
+        <script src="app.js"></script>
+
+        <div id="app">
+            <div id="navbar">
+                <h1 class="title">RestaurantNet</h1>
+                <div class="navigation">
+                    <span class="navBtn">Home</span>
+                    <span class="navBtn">Menu</span>
+                </div>
+            </div>
+            <div class="homeContent">
+                <div class="container">
+                    <div class="content">
+                        <h2 class="homeTitle">Opening hours:</h2>
+                        <span class="homeInfo">Monday - Thursday: 15:00 - 23:00</span>
+                        </br>
+                        <span class="homeInfo">Friday - Sunday: 13:00 - 00:00</span>
+                    </div>
+                    <div class="content">
+                        <h2 class="homeTitle">Contact us at:</h2>
+                        <span class="homeInfo">Phone: +47 12345678</span>
+                        </br>
+                        <span class="homeInfo">E-mail: myRestaurant@restaurant.net</span>
+                    </div>
+                    <div class="content">
+                        <h2 class="homeTitle">Visit us at:</h2>
+                        <span class="homeInfo"> Romeriksgata 999</span>
+                        </br>
+                        <span class="homeInfo"> 2003 Lillestrøm</span>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="slideshowContainer">
+                        <div class="slide fade" style="display:block;">
+                            <img class="slideshowImage" src="./Images/Slideshow1.jpg" />
+                        </div>
+                        <div class="slide fade">
+                            <img class="slideshowImage" src="./Images/Slideshow2.jpg" />
+                        </div>
+                        <div class="slide fade">
+                            <img class="slideshowImage" src="./Images/Slideshow3.jpg" />
+                        </div>
+                    </div>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
